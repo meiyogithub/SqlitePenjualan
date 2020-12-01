@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".BuatBarang">
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Update Barang"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_kodeBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang" />
+    <EditText
+        android:id="@+id/et_kodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Kode"
+        />
+    <TextView
+        android:id="@+id/tv_namaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang" />
+    <EditText
+        android:id="@+id/et_namaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nama"/>
+    <TextView
+        android:id="@+id/tv_satuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satuan" />
+    <EditText
+        android:id="@+id/et_satuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Satuan"
+        />
+
+    <TextView
+        android:id="@+id/tv_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga" />
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Harga"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>

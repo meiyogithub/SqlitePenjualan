@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".HalamanUtama">
+
+    <TextView
+        android:id="@+id/tv_halamanUtama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/tokopedia" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="movePelanggan"
+        android:text="Pelanggan"
+        app:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btn_dokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="moveBarang"
+        android:text="Barang"
+        app:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btn_rekammedis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="movePenjualan"
+        android:text="Penjualan"
+        app:backgroundTint="#4CAF50" />
+
+</LinearLayout>

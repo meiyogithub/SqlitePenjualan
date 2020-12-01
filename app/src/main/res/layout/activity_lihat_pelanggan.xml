@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LihatPelanggan">
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Data Pelanggan"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_kodePelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Pelanggan" />
+    <EditText
+        android:id="@+id/et_kodePelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Kode"
+        />
+    <TextView
+        android:id="@+id/tv_namaPelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pelanggan" />
+    <EditText
+        android:id="@+id/et_namaPelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nama"/>
+    <TextView
+        android:id="@+id/tv_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon" />
+    <EditText
+        android:id="@+id/et_telp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nomor" />
+
+</LinearLayout>

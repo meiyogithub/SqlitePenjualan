@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rfa.sqlitepenjualan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SqlitePenjualan">
+        <activity android:name=".UpdatePenjualan"></activity>
+        <activity android:name=".LihatPenjualan" />
+        <activity android:name=".BuatPenjualan" />
+        <activity android:name=".UpdateBarang" />
+        <activity android:name=".LihatBarang" />
+        <activity android:name=".BuatBarang" />
+        <activity android:name=".UpdatePelanggan" />
+        <activity android:name=".BuatPelanggan" />
+        <activity android:name=".LihatPelanggan" />
+        <activity android:name=".HalamanPenjualan" />
+        <activity android:name=".HalamanBarang" />
+        <activity android:name=".HalamanPelanggan" />
+        <activity android:name=".HalamanUtama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

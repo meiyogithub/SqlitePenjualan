@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".UpdatePenjualan">
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Update Penjualan"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_idPenjualan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Penjualan" />
+    <EditText
+        android:id="@+id/et_idPenjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="id"
+        />
+    <TextView
+        android:id="@+id/tv_tglPenjualan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Penjualan" />
+    <EditText
+        android:id="@+id/et_tglPenjualan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="tanggal"/>
+    <TextView
+        android:id="@+id/tv_kdPelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Pelanggan" />
+    <EditText
+        android:id="@+id/et_kdPelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="kode"
+        />
+    <TextView
+        android:id="@+id/tv_kdBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang" />
+    <EditText
+        android:id="@+id/et_kdBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="kode"
+        />
+    <TextView
+        android:id="@+id/tv_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty" />
+    <EditText
+        android:id="@+id/et_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="qty" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>
